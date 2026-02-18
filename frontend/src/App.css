@@ -1,0 +1,196 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.logo {
+  border: 2px solid black;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar {
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.slider {
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.slider-box {
+  margin-top: 20px;
+  height: 200px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  border: 2px solid black;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.service-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content-section h2 {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 2px solid black;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+
+.feedback {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.feedback h2 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.feedback-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feedback-box {
+  border: 2px solid black;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.partners {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.partners h2 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.partner-row {
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.partner-row span {
+  border: 1px solid black;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.footer {
+  border: 2px solid black;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* FORMS */
+.form-box {
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid black;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-box input {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.form-box button {
+  padding: 10px;
+  border: 2px solid black;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: black;
+  color: white;
+}
